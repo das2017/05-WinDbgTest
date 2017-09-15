@@ -95,9 +95,7 @@
     <Compile Include="Utils\Common.cs" />
     <Compile Include="Utils\CityEntity.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="App_Data\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <None Include="Properties\PublishProfiles\WindbgTest.pubxml" />
   </ItemGroup>
