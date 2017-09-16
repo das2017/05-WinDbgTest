@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "windbgTest", "windbgTest.csproj", "{790B04BD-6409-4F5E-A499-54B5CF1999A6}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindbgHighCpu", "WindbgHighCpu\WindbgHighCpu.csproj", "{4C8E9724-544E-4E11-97AC-FC5A02188E86}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ReferenceDll", "ReferenceDll", "{D5F779AC-BF11-40EE-BA2E-06DC0B4BFF4B}"
@@ -15,11 +13,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ReferenceDll", "ReferenceDl
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documents", "Documents", "{8471A5D9-CB47-4C78-8B71-1AACB8CC96FA}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SQL脚本 for WinDbgTest", "SQL脚本 for WinDbgTest", "{F9065F8C-0BDD-49FF-B02D-8D2BD5C7CD65}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SQL脚本 for WinDbgTest", "SQL脚本 for WinDbgTest", "{413D8559-4C42-4C71-8167-4E95336D3231}"
 	ProjectSection(SolutionItems) = preProject
-		..\..\SQL脚本 for WinDbgTest\1-CREATE TblCity Table.sql = ..\..\SQL脚本 for WinDbgTest\1-CREATE TblCity Table.sql
-		..\..\SQL脚本 for WinDbgTest\2-INSERT INTO TblCity SQL.sql = ..\..\SQL脚本 for WinDbgTest\2-INSERT INTO TblCity SQL.sql
+		Documents\SQL脚本 for WinDbgTest\1-CREATE TblCity Table.sql = Documents\SQL脚本 for WinDbgTest\1-CREATE TblCity Table.sql
+		Documents\SQL脚本 for WinDbgTest\2-INSERT INTO TblCity SQL.sql = Documents\SQL脚本 for WinDbgTest\2-INSERT INTO TblCity SQL.sql
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "windbgTest", "windbgTest\windbgTest.csproj", "{790B04BD-6409-4F5E-A499-54B5CF1999A6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,16 +31,6 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{790B04BD-6409-4F5E-A499-54B5CF1999A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{790B04BD-6409-4F5E-A499-54B5CF1999A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{790B04BD-6409-4F5E-A499-54B5CF1999A6}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
-		{790B04BD-6409-4F5E-A499-54B5CF1999A6}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
-		{790B04BD-6409-4F5E-A499-54B5CF1999A6}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{790B04BD-6409-4F5E-A499-54B5CF1999A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{790B04BD-6409-4F5E-A499-54B5CF1999A6}.Release|Any CPU.Build.0 = Release|Any CPU
-		{790B04BD-6409-4F5E-A499-54B5CF1999A6}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
-		{790B04BD-6409-4F5E-A499-54B5CF1999A6}.Release|Mixed Platforms.Build.0 = Release|Any CPU
-		{790B04BD-6409-4F5E-A499-54B5CF1999A6}.Release|x86.ActiveCfg = Release|Any CPU
 		{4C8E9724-544E-4E11-97AC-FC5A02188E86}.Debug|Any CPU.ActiveCfg = Debug|x86
 		{4C8E9724-544E-4E11-97AC-FC5A02188E86}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
 		{4C8E9724-544E-4E11-97AC-FC5A02188E86}.Debug|Mixed Platforms.Build.0 = Debug|x86
@@ -51,11 +41,21 @@ Global
 		{4C8E9724-544E-4E11-97AC-FC5A02188E86}.Release|Mixed Platforms.Build.0 = Release|x86
 		{4C8E9724-544E-4E11-97AC-FC5A02188E86}.Release|x86.ActiveCfg = Release|x86
 		{4C8E9724-544E-4E11-97AC-FC5A02188E86}.Release|x86.Build.0 = Release|x86
+		{790B04BD-6409-4F5E-A499-54B5CF1999A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{790B04BD-6409-4F5E-A499-54B5CF1999A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{790B04BD-6409-4F5E-A499-54B5CF1999A6}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{790B04BD-6409-4F5E-A499-54B5CF1999A6}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{790B04BD-6409-4F5E-A499-54B5CF1999A6}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{790B04BD-6409-4F5E-A499-54B5CF1999A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{790B04BD-6409-4F5E-A499-54B5CF1999A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{790B04BD-6409-4F5E-A499-54B5CF1999A6}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{790B04BD-6409-4F5E-A499-54B5CF1999A6}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{790B04BD-6409-4F5E-A499-54B5CF1999A6}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{F9065F8C-0BDD-49FF-B02D-8D2BD5C7CD65} = {8471A5D9-CB47-4C78-8B71-1AACB8CC96FA}
+		{413D8559-4C42-4C71-8167-4E95336D3231} = {8471A5D9-CB47-4C78-8B71-1AACB8CC96FA}
 	EndGlobalSection
 EndGlobal
