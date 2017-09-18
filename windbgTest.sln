@@ -17,6 +17,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SQL脚本 for WinDbgTest", 
 	ProjectSection(SolutionItems) = preProject
 		Documents\SQL脚本 for WinDbgTest\1-CREATE TblCity Table.sql = Documents\SQL脚本 for WinDbgTest\1-CREATE TblCity Table.sql
 		Documents\SQL脚本 for WinDbgTest\2-INSERT INTO TblCity SQL.sql = Documents\SQL脚本 for WinDbgTest\2-INSERT INTO TblCity SQL.sql
+		Documents\SQL脚本 for WinDbgTest\Readme.txt = Documents\SQL脚本 for WinDbgTest\Readme.txt
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "windbgTest", "windbgTest\windbgTest.csproj", "{790B04BD-6409-4F5E-A499-54B5CF1999A6}"
